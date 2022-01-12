@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covertidor de monedas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./image/icono.png">
+</head>
+
+<body onload="MyOnLoad()">
+    <div align="center">
+        <img src="./image/bolsa_Dinero.png" alt="Bolsa de dinero"><br>
+        <input type="text" placeholder="Cantidad de dinero a convertir:" id="cantidad"><br>
+        <select name="selec1" id="monedaUno">
+            <option value="1">Elije tu moneda</option>
+        </select>
+        <select name="selec2" id="monedaDos">
+            <option value="1">Elije tu moneda</option>
+        </select>
+        <button id="convertir">Convertir</button>
+    </div>
+    <fieldset id="field">
+        <p  id="XD"> Equivalencia</p>
+        <p id="conversion">Conversión</p>
+        <p id="resultado">Resultado</p>
+    </fieldset>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
